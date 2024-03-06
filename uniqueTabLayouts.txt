@@ -1,0 +1,15 @@
+{"type":"TabLayout","elements":[]}
+{"type":"TabLayout","elementId":"tabs","options":{"fixedPosition":true,"scrollableTabs":true},"elements":[]}
+{"type":"TabLayout","elementId":"tab-layout-side","elements":[]}
+{"type":"TabLayout","elementId":"tabs","options":{"fixedPosition":true,"scrollableTabs":true},"onInit":"prepareImportPricesTabs","elements":[]}
+{"type":"TabLayout","options":{"fixedPosition":true,"scrollableTabs":true},"elements":[]}
+{"type":"TabLayout","elementId":"tab-layout-main","width":4,"options":{"fixedPosition":true,"scrollableTabs":true},"elements":[]}
+{"type":"TabLayout","width":2,"elements":[]}
+{"type":"TabLayout","elementId":"tabs","onInit":"initTabLayout","lazyTabLoading":false,"options":{"scrollableTabs":true,"fixedPosition":true},"elements":[]}
+{"type":"TabLayout","lazyTabLoading":true,"width":4,"elements":[]}
+{"type":"TabLayout","lazyTabLoading":true,"options":{"fixedPosition":true,"scrollableTabs":true},"elements":[]}
+{"type":"TabLayout","elementId":"tab-layout-main","width":4,"options":{"fixedPosition":true,"scrollableTabs":true},"onInit":"bordereauSectionComponentRules","elements":[]}
+{"type":"TabLayout","lazyTabLoading":true,"onInit":"initTabLayout","width":12,"options":{"scrollableTabs":true,"fixedPosition":true},"elements":[]}
+{"type":"TabLayout","lazyTabLoading":true,"width":12,"options":{"fixedPosition":true,"scrollableTabs":true},"elements":[]}
+{"type":"TabLayout","elementId":"tab-layout-main","options":{"scrollableTabs":true,"fixedPosition":true},"lazyTabLoading":false,"elements":[]}
+{"type":"TabLayout","width":4,"options":{"fixedPosition":false,"scrollableTabs":true},"elements":[]}

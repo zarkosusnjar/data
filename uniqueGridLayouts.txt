@@ -1,0 +1,12 @@
+{"type":"GridLayout","numberOfColumns":4,"width":3,"fillAvailableSpace":true,"elements":[]}
+{"type":"GridLayout","numberOfColumns":2,"elements":[]}
+{"type":"GridLayout","numberOfColumns":2,"width":2,"elements":[]}
+{"type":"GridLayout","numberOfColumns":4,"width":3,"fillAvailableSpace":true,"elements":[],"eventHandlers":[{"eventName":"AMENDMENT_VALID_FROM_CHANGED","senders":["ai-amendment-general-info-valid-from"],"commands":{"commandType":"executeAction","actionName":"enrichDocument"}},{"eventName":"COST_EXEMPTION_CHANGE","senders":["ai-fund-shift-order-cost-exemption"],"commands":{"commandType":"executeAction","actionName":"enrichDocument"}}]}
+{"type":"GridLayout","formProperties":{"events":{"afterSearch":"preselectItems"}},"numberOfColumns":4,"elements":[]}
+{"type":"GridLayout","numberOfColumns":12,"width":12,"scope":"options","elements":[]}
+{"type":"GridLayout","fillAvailableSpace":true,"numberOfColumns":4,"whenLocked":"Disable","elements":[]}
+{"type":"GridLayout","numberOfColumns":4,"width":4,"fillAvailableSpace":true,"sectionLevel":1,"elements":[]}
+{"type":"GridLayout","title":"Payment Order","numberOfColumns":4,"elements":[]}
+{"type":"GridLayout","numberOfColumns":4,"elements":[],"rule":{"effect":"HIDE","condition":{"type":"FUNC","ruleFunction":"isCoverageSelected","value":[{"$ref":"#"}]}}}
+{"type":"GridLayout","numberOfColumns":4,"width":3,"fillAvailableSpace":true,"elements":[],"rule":{"effect":"ENABLE_INITIAL","condition":{"type":"LEAF","inValues":["Draft"],"value":{"$ref":"#/properties/State/properties/Code"}}}}
+{"id":"RenewalCandidatesOverview","type":"GridLayout","numberOfColumns":4,"formProperties":{"events":{"onLoad":"initRenewalCandidates"}},"elements":[]}

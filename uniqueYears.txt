@@ -1,0 +1,9 @@
+{"type":"Year","label":"Production Year","minimum":1980,"selectItemOnMatch":true,"value":{"$ref":"#/properties/productionYear"},"width":1}
+{"type":"Year","label":"Licence year","minimum":1950,"maximum":2021,"selectItemOnMatch":true,"value":{"$ref":"#/properties/licenceIssueYear"},"width":1}
+{"type":"Year","readOnly":true,"label":"Production Year","value":{"$ref":"#/properties/resultData/properties/vehicle/properties/productionYear"},"width":1}
+{"type":"Year","label":"Start indexation on year","minimum":2019,"maximum":2999,"selectItemOnMatch":true,"rule":{"effect":"SHOW","condition":{"type":"LEAF","expectedValue":true,"value":{"$ref":"#/properties/indexationActive"}}},"value":{"$ref":"#/properties/startIndexationOnYear"},"width":1}
+{"type":"Year","label":"Year of manufacture","maxItems":10,"minimum":1900,"searchDelay":0.1,"useParentScope":true,"value":{"$ref":"#/properties/yearOfManufacture"},"width":3,"showAsRequired":false}
+{"type":"Year","label":"Year of Construction","value":{"$ref":"#/properties/yearOfConstruction"},"width":1}
+{"type":"Year","label":"Processing Year","useParentScope":false,"value":{"$ref":"#/properties/Body/properties/generalInfo/properties/processingYear"},"width":1,"minimum":2020,"maximum":2100,"onValueChanged":"updateAllocatedOn"}
+{"type":"Year","label":"Processing Year From","useParentScope":false,"value":{"$ref":"#/properties/request/properties/data/properties/criteria/properties/processingYearFrom"},"width":1,"minimum":2020,"maximum":2100}
+{"type":"Year","minimum":1900,"maximum":2100,"selectItemOnMatch":true,"value":{"$ref":"#/properties/yearOfBirth"},"width":1,"label":"Year of Birth","onValueChanged":"raiseInfoCalculationInputsEvent","elementId":"infoCalculationBirthYear"}
